@@ -5,9 +5,9 @@ const app = express();
 app.use(express.json());
 
 // Twilio configuration
-const twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID';
-const twilioAuthToken = 'YOUR_TWILIO_AUTH_TOKEN';
-const twilioPhoneNumber = 'YOUR_TWILIO_PHONE_NUMBER';
+const twilioAccountSid = 'TWILIO_ACCOUNT_SID';
+const twilioAuthToken = 'TWILIO_AUTH_TOKEN';
+const twilioPhoneNumber = 'TWILIO_PHONE_NUMBER';
 const client = twilio(twilioAccountSid, twilioAuthToken);
 
 // Middleware to handle response ingestion and send SMS

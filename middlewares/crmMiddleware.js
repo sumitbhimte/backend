@@ -5,7 +5,7 @@ app.use(express.json());
 
 // Configure Google Sheets API
 const sheets = google.sheets({ version: 'v4' });
-const spreadsheetId = 'YOUR_SPREADSHEET_ID'; // Replace with your Google Sheet ID
+const spreadsheetId = 'SPREADSHEET_ID'; // Replace with your Google Sheet ID
 
 // Middleware to add form response to Google Sheets
 app.post('/add-response', async (req, res) => {

@@ -14,3 +14,17 @@ app.get('/fetch-responses/city/:city', async (req, res) => {
         res.status(500).send("Error fetching data: " + error.message);
     }
 });
+
+// Middleware to fetch specific qustions 
+app.get('/fetch-responses/:questionId', async (req, res) => {
+    try {
+        const questionId = req.params.questionId;
+        const responses = await Response.find({ questionId: questionId });
+
+        // You can add additional processing here if needed
+
+        res.json({ questionId: questionId, responses: responses });
+    } catch (error) {
+        res.status(500).send("Error fetching data: " + error.message);
+    }
+});     

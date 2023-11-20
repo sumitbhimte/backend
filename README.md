@@ -16,6 +16,8 @@
 
 - we can use any of the caching techniques to improve performance
 
+### Architecture
+
 ![AWS Dataflow Dig](https://github.com/sumitbhimte/backend/blob/main/images/AWS-dataflow-diagram.png "AWS Dataflow Dig")
 
 

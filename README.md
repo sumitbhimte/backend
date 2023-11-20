@@ -1,9 +1,15 @@
 # Atlan backend Challenge
-### Database: NoSQL (MongoDB) 
+### Database: NoSQL (MongoDB || MongoDB Atlas)
 - As we have a huge database and each time a customer may request changes at  any point of time so SQL database may take more time to retrieve.
 - By using NoSQL it is easier to make changes in schema and retrieval becomes faster
 
 ### Load Balancer
+- We can use AWS Services (or any cloud services) to manage system health
+
+### Caching (Application-Level Caching) :
+  1. Redis
+  2. Memcached
+- we can use any of the caching techniques to improve performance
 
 
 
@@ -67,6 +73,10 @@
 
 
 ## SMS Services (Task 4)
+ 1. Amazon SNS Servies
+ 2. Twillio
+
+    
 **Schema**
 - `responseId` : Unique identifier for the response.
 - `customerName` : Name of User,

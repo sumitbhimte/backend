@@ -19,7 +19,7 @@
 <!-- ![alt text](https://github.com/sumitbhimte/backend/blob/main/images/AWS-dataflow-diagram.png "AWS Dataflow Dig") -->
 <p align="center">
   <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="https://github.com/sumitbhimte/backend/blob/main/images/AWS-dataflow-diagram.png" width="350" alt="accessibility text">
+  <img src="https://github.com/sumitbhimte/backend/blob/main/images/AWS-dataflow-diagram.jpg" width="350" alt="accessibility text">
 </p>
 images\AWS dataflow diagram.png
 

@@ -16,7 +16,7 @@
 
 - we can use any of the caching techniques to improve performance
 
-![alt text](https://github.com/sumitbhimte/backend/images/AWS-dataflow-diagram.png "AWS Dataflow Dig")
+![alt text](https://github.com/sumitbhimte/backend/blob/main/images/AWS-dataflow-diagram.png "AWS Dataflow Dig")
 images\AWS dataflow diagram.png
 
 ## Slang Language Searching (Task 1)

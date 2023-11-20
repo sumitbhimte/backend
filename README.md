@@ -19,6 +19,7 @@
   - `responseId` : Unique identifier for the response.
   - `userId`: Identifier for the user who provided the response.
   - `questionId`: Identifier for the question being answered.
+  - `correctOption` : Correct option. 
   - `selectedOption`: The option selected by the user.
   - `isCorrect`: Boolean indicating if the selected option is correct.
   - `city` : Stores city name

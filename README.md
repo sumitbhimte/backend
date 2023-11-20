@@ -1,4 +1,11 @@
 # Atlan backend Challenge
+### Database: NoSQL (MongoDB) 
+- As we have a huge database and each time a customer may request changes at  any point of time so SQL database may take more time to retrieve.
+- By using NoSQL it is easier to make changes in schema and retrieval becomes faster
+
+### Load Balancer
+
+
 
 ## Slang Language Searching (Task 1)
 
@@ -39,7 +46,7 @@
 **Schema**
  - `responseId`: Unique identifier for the response.
  - `formData` : Stores key-value pairs for each question and answer
- - `timestamp` : Time of submition
+ - `timestamp`: Time of submission
 
 **Middleware for Google Sheets Integration**
  - For the middleware, first need to set up Google Sheets API.
@@ -49,10 +56,10 @@
 
         npm install googleapis
 
-- The middleware /add-response expects a form response in the request body. It extracts the values from formData and appends them as a new row in a specified Google Sheet.
+- The middleware `/add-response` expects a form response in the request body. It extracts the values from formData and appends them as a new row in a specified Google Sheet.
 - Replace `SPREADSHEET_ID` with the actual ID of Google Sheet.
-- The range 'Sheet1' refers to the first sheet in your Google Sheet.
-  We can modify this based on sheet's structure.
+- The range `Sheet1` refers to the first sheet in your Google Sheet.
+  We can modify this based on the sheet's structure.
 
 **Note**
 - Here authentication with Google's API is required.
@@ -65,7 +72,7 @@
 - `customerName` : Name of User,
 - `phoneNumber` : Phone Number is important for sending SMS
 - `responseDetails` : Stores all other response details
-- `timestamp` : Time of Submition of form
+- `timestamp` : Time of Submission of form
 
 **Middleware for Sending SMS**
 
@@ -80,7 +87,7 @@
 - The SMS content includes a thank-you note and the details of their response, serving as a receipt of their participation.
 
 **Note**
-- Replace `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, and `TWILIO_PHONE_NUMBER` with your actual Twilio credentials.
+- Replace `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, and `TWILIO_PHONE_NUMBER` with actual Twilio credentials.
 
   
   

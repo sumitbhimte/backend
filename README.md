@@ -4,7 +4,7 @@
 - By using NoSQL it is easier to make changes in schema and retrieval becomes faster
 
 ### Load Balancer
-- We can use AWS Services (or any cloud services) to manage system health
+- We can setup AWS Services (or any cloud services) to manage system health
 
 ### Caching (Application-Level Caching) :
   1. Redis

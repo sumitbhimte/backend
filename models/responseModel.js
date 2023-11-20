@@ -3,27 +3,40 @@ import mongoose from "mongoose";
 const responseSchema = new mongoose.Schema({
     responseId:
     {
-        type: String
+        type: String,
+        unique: true,
+        required: true,
     },
     userId:
     {
-        type: String
+        type: String,
+        required: true,
+        unique: true,
+    },
+    correctOption:
+    {
+        type: String,
+        required: true,
     },
     questionId:
     {
-        type: String
+        type: String,
+        required: true,
     },
     selectedOption:
     {
-        type: String
+        type: String,
+        required: true,
     },
     isCorrect:
     {
-        type: Boolean
+        type: Boolean,
+        required: true,
     },
     city:
     {
-        type: String
+        type: String,
+        required: true,
     }
 });
 

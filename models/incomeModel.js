@@ -3,23 +3,30 @@ const mongoose = require('mongoose');
 const incomeSchema = new mongoose.Schema({
     responseId:
     {
-        type: String
+        type: String,
+        required: true,
+        unique: true,
     },
     userId:
     {
-        type: String
+        type: String,
+        required: true,
+        unique: true,
     },
     monthlyIncome:
     {
-        type: Number
+        type: Number,
+        required: true,
     },
     monthlySavings:
     {
-        type: Number
+        type: Number,
+        required: true,
     },
     flag:
     {
-        type: Boolean
+        type: Boolean,
+        required: true,
     }
 });
 

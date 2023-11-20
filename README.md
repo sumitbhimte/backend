@@ -1,7 +1,7 @@
 # Atlan backend Challenge
 ### Database: NoSQL (MongoDB || MongoDB Atlas)
 - As we have a huge database and each time a customer may request changes at  any point of time so SQL database may take more time to retrieve.
-- By using NoSQL it is easier to make changes in schema and retrieval becomes faster
+- By using NoSQL it is easier to make changes in schema and retrieval becomes faster because of MongoDB caching
 
 ### Load Balancer
 - We can setup AWS Services (or any cloud services) to manage system health
